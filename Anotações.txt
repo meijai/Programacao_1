@@ -1,0 +1,18 @@
+assistir documentário "gringo"
+w2schools <- site para ler alguma coisa
+
+ASP - Active Server Pages
+HTTP - Hyper Text Transfer Protocol (Secure)
+{
+	POST (publicar)
+	PUT (editar)
+	DELETE (apagar)
+	GET (visualização)
+}
+HTML - Hyper Text Markup Language
+DNS - Domain Name System
+SSL - Secure Socket Layer
+MVC - Model View Controller
+CSS - Cascade Style Sheets
+KISS - Keep It Simple Stupid
+YAGNI - You Aint Gonna Need It
