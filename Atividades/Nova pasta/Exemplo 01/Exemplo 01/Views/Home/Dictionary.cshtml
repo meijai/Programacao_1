@@ -1,0 +1,20 @@
+﻿@model Dictionary<int, string>
+
+<h6>Dictionary</h6>
+
+<table border="1">
+    <tr>
+        <th>Chave</th>
+        <th>Valor</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Key</td>
+            <td>@item.Value</td>
+        </tr>
+    }
+</table>
+
+<hr />

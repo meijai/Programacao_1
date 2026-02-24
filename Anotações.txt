@@ -1,3 +1,7 @@
+resumo capitulo 8 do livro c#13.net
+criar outro método de controle Home, fazendo oque foi feito em aula exibindo meus dados
+nome endereço idade data nascimento etc
+
 assistir documentário "gringo"
 w2schools <- site para ler alguma coisa
 
@@ -16,3 +20,11 @@ MVC - Model View Controller
 CSS - Cascade Style Sheets
 KISS - Keep It Simple Stupid
 YAGNI - You Aint Gonna Need It
+
+
+f5 para executar sem entrar em debug
+
+<hr /> horizontal roll
+<p> paragrafo
+
+alt + shift + . seleciona vaios itens

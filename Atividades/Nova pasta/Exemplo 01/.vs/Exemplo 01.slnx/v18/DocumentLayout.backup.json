@@ -1,12 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programa\u00E7\u00E3o I\\Atividades\\Nova pasta\\Exemplo 01\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\Nova pasta\\Exemplo 01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4565C0F4-6E45-B07E-9A2A-0ECEC74E53BE}|Exemplo 01\\Exemplo 01.csproj|c:\\users\\mj solu\u00E7\u00F5es\\desktop\\faculdade\\2026\\programacao_1\\atividades\\nova pasta\\exemplo 01\\exemplo 01\\views\\home\\dictionary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4565C0F4-6E45-B07E-9A2A-0ECEC74E53BE}|Exemplo 01\\Exemplo 01.csproj|solutionrelative:exemplo 01\\views\\home\\dictionary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4565C0F4-6E45-B07E-9A2A-0ECEC74E53BE}|Exemplo 01\\Exemplo 01.csproj|c:\\users\\mj solu\u00E7\u00F5es\\desktop\\faculdade\\2026\\programacao_1\\atividades\\nova pasta\\exemplo 01\\exemplo 01\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4565C0F4-6E45-B07E-9A2A-0ECEC74E53BE}|Exemplo 01\\Exemplo 01.csproj|solutionrelative:exemplo 01\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dictionary.cshtml",
+              "DocumentMoniker": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\Nova pasta\\Exemplo 01\\Exemplo 01\\Views\\Home\\Dictionary.cshtml",
+              "RelativeDocumentMoniker": "Exemplo 01\\Views\\Home\\Dictionary.cshtml",
+              "ToolTip": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\Nova pasta\\Exemplo 01\\Exemplo 01\\Views\\Home\\Dictionary.cshtml",
+              "RelativeToolTip": "Exemplo 01\\Views\\Home\\Dictionary.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-24T00:39:51.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\Nova pasta\\Exemplo 01\\Exemplo 01\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Exemplo 01\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\Nova pasta\\Exemplo 01\\Exemplo 01\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Exemplo 01\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAgwGgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T23:23:22.566Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
