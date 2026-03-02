@@ -3,7 +3,7 @@ criar outro método de controle Home, fazendo oque foi feito em aula exibindo me
 nome endereço idade data nascimento etc
 
 assistir documentário "gringo"
-w2schools <- site para ler alguma coisa
+w3schools <- site para ler alguma coisa
 
 ASP - Active Server Pages
 HTTP - Hyper Text Transfer Protocol (Secure)
