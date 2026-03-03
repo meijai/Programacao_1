@@ -1,20 +1,17 @@
 ﻿@model Dictionary<int, string>
 
-<h6>Dictionary</h6>
-
-<table border="1">
-    <tr>
-        <th>Chave</th>
+<table>
+    <thead>
+        <th>ID</th>
         <th>Valor</th>
-    </tr>
-
-    @foreach (var item in Model)
-    {
-        <tr>
-            <td>@item.Key</td>
-            <td>@item.Value</td>
-        </tr>
-    }
+    </thead>
+    <tbody>
+        @foreach (var data in Model)
+        {
+            <tr>
+                <td>@data.Key</td>
+                <td>data.Value</td>
+            </tr>
+        }
+    </tbody>
 </table>
-
-<hr />

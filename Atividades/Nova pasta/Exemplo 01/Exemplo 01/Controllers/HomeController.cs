@@ -116,6 +116,49 @@ namespace Exemplo_01.Controllers
 
         //-----------------------------------------------------------------------------------------------------------------------------------
 
+        [HttpGet]
+        public async Task<IActionResult> MediaFinal()
+        {
+            Dictionary<string, double> Notas = new Dictionary<string, double>();
+            Notas.Add("Cleber Meireles", 7.3);
+            Notas.Add("Bruno Furlan", 8.5);
+            Notas.Add("Maria Silva", 2.0);
+            Notas.Add("João Santos", 6.8);
+            Notas.Add("Ana Oliveira", 7.2);
+            Notas.Add("Carlos Pereira", 2.9);
+            Notas.Add("Fernanda Costa", 7.5);
+            Notas.Add("Ricardo Almeida", 6.5);
+            Notas.Add("Juliana Rodrigues", 4.0);
+
+            Dictionary<string, string> Resumo = new Dictionary<string, string>();
+            var maiorNota = Notas.Values.Max();
+            var menorNota = Notas.Values.Min();
+            var media = Notas.Values.Average();
+            var aprovados = 0;
+            var reprovados = 0;
+            var exame = 0;
+            foreach(var item in Notas)
+            {
+                if (item.Value >= 7.0)
+                {
+                    aprovados++;
+                }
+                else if (item.Value < 5.0)
+                {
+                    reprovados++;
+                }
+                else if (item.Value > 5.0 && item.Value < 7.0)
+                {
+                    exame++;
+                }
+            }
+
+        }
+
+
+
+
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

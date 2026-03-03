@@ -7,4 +7,14 @@
     <RootNamespace>Exemplo_01</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Views\Home\Index1.cshtml.cs" />
+    <Compile Remove="Views\Home\mediaAlunos.cshtml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Home\Index1.cshtml" />
+    <Content Remove="Views\Home\mediaAlunos.cshtml" />
+  </ItemGroup>
+
 </Project>
