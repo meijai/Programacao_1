@@ -101,7 +101,7 @@ namespace Exemplo_01.Controllers
 
             for(int i = 1; i <= 10; i++)
             {
-                data.Add(i, $"Valor {i}");
+                data.Add(i, $" Valor {i}");
             }
 
             return View("Dictionary", data);
@@ -117,46 +117,55 @@ namespace Exemplo_01.Controllers
         //-----------------------------------------------------------------------------------------------------------------------------------
 
         [HttpGet]
-        public async Task<IActionResult> MediaFinal()
+        public IActionResult MediaFinal()
         {
             Dictionary<string, double> Notas = new Dictionary<string, double>();
-            Notas.Add("Cleber Meireles", 7.3);
-            Notas.Add("Bruno Furlan", 8.5);
-            Notas.Add("Maria Silva", 2.0);
-            Notas.Add("João Santos", 6.8);
-            Notas.Add("Ana Oliveira", 7.2);
-            Notas.Add("Carlos Pereira", 2.9);
-            Notas.Add("Fernanda Costa", 7.5);
-            Notas.Add("Ricardo Almeida", 6.5);
-            Notas.Add("Juliana Rodrigues", 4.0);
+            {
+                Notas.Add("Cleber Meireles", 7.3);
+                Notas.Add("Bruno Furlan", 8.5);
+                Notas.Add("Maria Silva", 2.0);
+                Notas.Add("João Santos", 6.8);
+                Notas.Add("Ana Oliveira", 7.2);
+                Notas.Add("Carlos Pereira", 2.9);
+                Notas.Add("Fernanda Costa", 7.5);
+                Notas.Add("Ricardo Almeida", 6.5);
+                Notas.Add("Juliana Rodrigues", 4.0);
+            };
 
-            Dictionary<string, string> Resumo = new Dictionary<string, string>();
             var maiorNota = Notas.Values.Max();
             var menorNota = Notas.Values.Min();
             var media = Notas.Values.Average();
-            var aprovados = 0;
-            var reprovados = 0;
-            var exame = 0;
-            foreach(var item in Notas)
+
+            int aprovados = 0;
+            int reprovados = 0;
+            int exame = 0;
+
+            foreach (var item in Notas)
             {
                 if (item.Value >= 7.0)
-                {
                     aprovados++;
-                }
+
                 else if (item.Value < 5.0)
-                {
                     reprovados++;
-                }
-                else if (item.Value > 5.0 && item.Value < 7.0)
-                {
+
+                else
                     exame++;
-                }
             }
 
+            Dictionary<string, string> Resumo = new Dictionary<string, string>()
+            {
+                {"Maior Nota", maiorNota.ToString()},
+                {"Menor Nota", menorNota.ToString()},
+                {"Média", media.ToString()},
+                {"Aprovados", aprovados.ToString()},
+                {"Reprovados", reprovados.ToString()},
+                {"Em Exame", exame.ToString()}
+            };
+
+            return View("MediaFinal", Resumo);
         }
 
-
-
+        //-----------------------------------------------------------------------------------------------------------------------------------
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
