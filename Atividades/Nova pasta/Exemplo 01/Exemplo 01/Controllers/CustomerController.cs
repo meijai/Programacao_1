@@ -35,7 +35,7 @@ namespace Exemplo_01.Controllers
             customers.Add(cu1);
             customers.Add(cu2);
 
-            return View(customers);l
+            return View(customers);
         }
     }
 }

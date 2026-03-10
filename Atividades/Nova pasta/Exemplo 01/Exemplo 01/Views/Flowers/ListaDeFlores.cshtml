@@ -1,0 +1,15 @@
+﻿@model List<Flowers>
+<h1>Lista De Flores</h1>
+<tr>
+    @foreach (var item in Model)
+    {
+        <p>Nome: @item.Nome</p>
+        <p>Tipo: @item.Tipo</p>
+        <p>Espécie: @item.Especie</p>
+        <p>Cor: @item.Cor</p>
+        <p>Aroma: @item.Aroma</p>
+        <p>Tamanho: @item.Tamanho</p>
+        <p>Valor: @item.Valor</p>
+        <br />
+    }
+</tr>

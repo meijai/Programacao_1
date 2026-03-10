@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\429274\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\Nova pasta\\Exemplo 01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4565C0F4-6E45-B07E-9A2A-0ECEC74E53BE}|Exemplo 01\\Exemplo 01.csproj|c:\\users\\429274\\desktop\\faculdade\\2026\\programacao_1\\atividades\\nova pasta\\exemplo 01\\exemplo 01\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4565C0F4-6E45-B07E-9A2A-0ECEC74E53BE}|Exemplo 01\\Exemplo 01.csproj|solutionrelative:exemplo 01\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4565C0F4-6E45-B07E-9A2A-0ECEC74E53BE}|Exemplo 01\\Exemplo 01.csproj|c:\\users\\429274\\desktop\\faculdade\\2026\\programacao_1\\atividades\\nova pasta\\exemplo 01\\exemplo 01\\views\\flowers\\listadeflores.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4565C0F4-6E45-B07E-9A2A-0ECEC74E53BE}|Exemplo 01\\Exemplo 01.csproj|solutionrelative:exemplo 01\\views\\flowers\\listadeflores.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4565C0F4-6E45-B07E-9A2A-0ECEC74E53BE}|Exemplo 01\\Exemplo 01.csproj|c:\\users\\429274\\desktop\\faculdade\\2026\\programacao_1\\atividades\\nova pasta\\exemplo 01\\exemplo 01\\controllers\\flowerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4565C0F4-6E45-B07E-9A2A-0ECEC74E53BE}|Exemplo 01\\Exemplo 01.csproj|solutionrelative:exemplo 01\\controllers\\flowerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\429274\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\Nova pasta\\Exemplo 01\\Exemplo 01\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "Exemplo 01\\Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\429274\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\Nova pasta\\Exemplo 01\\Exemplo 01\\Models\\Customer.cs",
-              "RelativeToolTip": "Exemplo 01\\Models\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Title": "ListaDeFlores.cshtml",
+              "DocumentMoniker": "C:\\Users\\429274\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\Nova pasta\\Exemplo 01\\Exemplo 01\\Views\\Flowers\\ListaDeFlores.cshtml",
+              "RelativeDocumentMoniker": "Exemplo 01\\Views\\Flowers\\ListaDeFlores.cshtml",
+              "ToolTip": "C:\\Users\\429274\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\Nova pasta\\Exemplo 01\\Exemplo 01\\Views\\Flowers\\ListaDeFlores.cshtml",
+              "RelativeToolTip": "Exemplo 01\\Views\\Flowers\\ListaDeFlores.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-10T00:50:37.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FlowersController.cs",
+              "DocumentMoniker": "C:\\Users\\429274\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\Nova pasta\\Exemplo 01\\Exemplo 01\\Controllers\\FlowersController.cs",
+              "RelativeDocumentMoniker": "Exemplo 01\\Controllers\\FlowersController.cs",
+              "ToolTip": "C:\\Users\\429274\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\Nova pasta\\Exemplo 01\\Exemplo 01\\Controllers\\FlowersController.cs",
+              "RelativeToolTip": "Exemplo 01\\Controllers\\FlowersController.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAiwHMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T22:51:20.457Z",
+              "WhenOpened": "2026-03-10T00:18:44.657Z",
               "EditorCaption": ""
             }
           ]
