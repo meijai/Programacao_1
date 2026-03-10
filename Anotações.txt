@@ -1,3 +1,13 @@
+Atividade 09/03/2026
+
+Pesquise um pouco sobre flores e como especifica-las quanto a tipo, espécie, cor, aroma, tamanho e valores.
+Escreva uma classe que seja capaz de definir estas especificações
+Crie objetos para no mínimo 10 tipos de flores diferentes
+adicione estes objetos a uma lista dentro de uma classe controller
+Exiba o conteúdo desta lista em uma view
+
+
+
 resumo capitulo 8 do livro c#13.net
 criar outro método de controle Home, fazendo oque foi feito em aula exibindo meus dados
 nome endereço idade data nascimento etc

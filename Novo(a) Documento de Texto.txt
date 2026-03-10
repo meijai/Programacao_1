@@ -1,0 +1,61 @@
+LEMA DE POO 
+Alta coesão e baixo acoplamento
+
+POO Means paradigma orientado a objeto
+
+POO é a base para comunicação por meios de sistemas distribuídos e APIS, padrões de designes de sistemas, modelos de arquitetura como o DDD (domain driven design), dotnet apps, conceitos de clean code, etc...
+Dentro dos conceitos de OO temos 2 figuras extremamente importantes, distintas, mas muito próximas, a primeira delas é a classe
+A Classe ela é o código de Fato, aquilo que nos definimos, EX: no nosso prog aplicação web temos controller, ele tem uma função bem especificao, atender as requisições do usuário, como se fosse um porteiro que passa as informações, etc, linhas de chamada. Ele tb é uma classe. Mas o controller cuja classe foi definida, a classe é o código escrito, não é oque ele faz, é a especificação do que ele faz, o código!
+A classe é o código, definido com a palavra chave class
+Formada por propriedades e funções/métodos que compõem os membros da classe
+
+objeto
+uma instanciia de uma classe na memoria do computador
+variável que possibilita o acesso aos métodos e propriedades especificadas pela classe
+ao encerrar o programa, o objeto e eliminado da memoria, mas a classe permanecera especificada no código fonte do programa.
+
+
+object
+var customer = new Customer();
+customer.FirstName = "Frodo";
+customer.Validate();
+
+
+Class
+public class Customer
+{
+	public int CustomerId { get; set; }
+	public string EmailAdress { get; set; }
+	public string FirstName { get; set; }
+	public string LastName { get; set; } // atributo
+	public bool Validate() { ... } // método entre () o nome do método deve ser o verbo no exemplo é validar
+}
+
+
+
+- Os objetos possuem o formato especificado pela classe, porem cada m deles podem armazenar valores diferentes em suas propriedades ocasionando comportamentos diferentes em seus métodos
+
+objetos de negocio
+- business objects sai as ckasses porihetadas oara sikycuibar oribkenas de yn deternubadi dinubui de aokucacai di siftware
+
+- Certamente teríamos uma definicacao de classe Consumidor em um sistema comercial, contendo nome e email como propriedades
+
+Entidade, ou entity, ela é qualquer coisa seja importante do domínio da aplicação ou do mundo real que precise ser representado com uma classe
+
+POO
+Uma abordagem para projetar e construir aplicações que são
+-flexíveis
+-naturais
+-bem elaboradas
+-testáveis
+
+Focada em objetos que interagem uns com os outros
+
+1-Identifique as classes dos requisitos ou especificações para definir as entidades da aplicação
+2-Analise as classes identificadas e separa as responsabilidades. Tenha em mente que a aplicação poderá ser decomposta com o mínimo de impacto
+3- Estabeleca os relacionamentos entre as classes para que os objetos possam operar em conjunto na resolução da proposta do software
+4- Reutilize. Construa seu código pensando em reaproveitamento do código para evitar repetições e facilitar manutenções
+
+
+Processos da POO
+
