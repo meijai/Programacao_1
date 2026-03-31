@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\2026_03_30\\ClassesMetodos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5733CC6B-E019-4F67-8C22-2153E8E6CD82}|Model\\Model.csproj|c:\\users\\mj solu\u00E7\u00F5es\\desktop\\faculdade\\2026\\programacao_1\\atividades\\2026_03_30\\classesmetodos\\model\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5733CC6B-E019-4F67-8C22-2153E8E6CD82}|Model\\Model.csproj|solutionrelative:model\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5733CC6B-E019-4F67-8C22-2153E8E6CD82}|Model\\Model.csproj|c:\\users\\mj solu\u00E7\u00F5es\\desktop\\faculdade\\2026\\programacao_1\\atividades\\2026_03_30\\classesmetodos\\model\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5733CC6B-E019-4F67-8C22-2153E8E6CD82}|Model\\Model.csproj|solutionrelative:model\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5733CC6B-E019-4F67-8C22-2153E8E6CD82}|Model\\Model.csproj|c:\\users\\mj solu\u00E7\u00F5es\\desktop\\faculdade\\2026\\programacao_1\\atividades\\2026_03_30\\classesmetodos\\model\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5733CC6B-E019-4F67-8C22-2153E8E6CD82}|Model\\Model.csproj|solutionrelative:model\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5733CC6B-E019-4F67-8C22-2153E8E6CD82}|Model\\Model.csproj|c:\\users\\mj solu\u00E7\u00F5es\\desktop\\faculdade\\2026\\programacao_1\\atividades\\2026_03_30\\classesmetodos\\model\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5733CC6B-E019-4F67-8C22-2153E8E6CD82}|Model\\Model.csproj|solutionrelative:model\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5733CC6B-E019-4F67-8C22-2153E8E6CD82}|Model\\Model.csproj|c:\\users\\mj solu\u00E7\u00F5es\\desktop\\faculdade\\2026\\programacao_1\\atividades\\2026_03_30\\classesmetodos\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5733CC6B-E019-4F67-8C22-2153E8E6CD82}|Model\\Model.csproj|solutionrelative:model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\2026_03_30\\ClassesMetodos\\Model\\Product.cs",
+              "RelativeDocumentMoniker": "Model\\Product.cs",
+              "ToolTip": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\2026_03_30\\ClassesMetodos\\Model\\Product.cs",
+              "RelativeToolTip": "Model\\Product.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAkwBwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T22:59:58.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\2026_03_30\\ClassesMetodos\\Model\\Order.cs",
+              "RelativeDocumentMoniker": "Model\\Order.cs",
+              "ToolTip": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\2026_03_30\\ClassesMetodos\\Model\\Order.cs",
+              "RelativeToolTip": "Model\\Order.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T23:24:50.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\2026_03_30\\ClassesMetodos\\Model\\OrderItem.cs",
+              "RelativeDocumentMoniker": "Model\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\2026_03_30\\ClassesMetodos\\Model\\OrderItem.cs",
+              "RelativeToolTip": "Model\\OrderItem.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwCIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T23:03:37.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\2026_03_30\\ClassesMetodos\\Model\\Address.cs",
+              "RelativeDocumentMoniker": "Model\\Address.cs",
+              "ToolTip": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\2026_03_30\\ClassesMetodos\\Model\\Address.cs",
+              "RelativeToolTip": "Model\\Address.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwC0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T22:53:16.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\2026_03_30\\ClassesMetodos\\Model\\Customer.cs",
+              "RelativeDocumentMoniker": "Model\\Customer.cs",
+              "ToolTip": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\2026_03_30\\ClassesMetodos\\Model\\Customer.cs",
+              "RelativeToolTip": "Model\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T22:49:52.568Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

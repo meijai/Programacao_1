@@ -1,0 +1,13 @@
+﻿@model List<Library.Property>
+<h1>Lista De Imóveis</h1>
+<tr>
+    @foreach (var item in Model)
+    {
+        <p>Id Imóvel: @item.Id</p>
+        <p>Tipo de Propriedade: @item.PropertyType</p>
+        <p>Tipo de Negociação: @item.SellOrRent</p>
+        <p>Valor do Imóvel: R$ @item.SellValue,00</p>
+        <p>Endereço: @item.Address</p>
+        <br />
+    }
+</tr>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MedVet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27a8ecf0c6494f3606893d85bbc17e543ef0a2b1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e5dbef3ed91a4e9fef0e266aad868b273a824a6")]
 [assembly: System.Reflection.AssemblyProductAttribute("MedVet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MedVet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

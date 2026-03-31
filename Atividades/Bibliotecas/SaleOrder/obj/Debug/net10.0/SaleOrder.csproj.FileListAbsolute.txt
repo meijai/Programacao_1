@@ -1,0 +1,12 @@
+C:\Users\MJ Soluções\Desktop\Faculdade\2026\Programacao_1\Atividades\Bibliotecas\SaleOrder\bin\Debug\net10.0\SaleOrder.deps.json
+C:\Users\MJ Soluções\Desktop\Faculdade\2026\Programacao_1\Atividades\Bibliotecas\SaleOrder\bin\Debug\net10.0\SaleOrder.dll
+C:\Users\MJ Soluções\Desktop\Faculdade\2026\Programacao_1\Atividades\Bibliotecas\SaleOrder\bin\Debug\net10.0\SaleOrder.pdb
+C:\Users\MJ Soluções\Desktop\Faculdade\2026\Programacao_1\Atividades\Bibliotecas\SaleOrder\obj\Debug\net10.0\SaleOrder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MJ Soluções\Desktop\Faculdade\2026\Programacao_1\Atividades\Bibliotecas\SaleOrder\obj\Debug\net10.0\SaleOrder.AssemblyInfoInputs.cache
+C:\Users\MJ Soluções\Desktop\Faculdade\2026\Programacao_1\Atividades\Bibliotecas\SaleOrder\obj\Debug\net10.0\SaleOrder.AssemblyInfo.cs
+C:\Users\MJ Soluções\Desktop\Faculdade\2026\Programacao_1\Atividades\Bibliotecas\SaleOrder\obj\Debug\net10.0\SaleOrder.csproj.CoreCompileInputs.cache
+C:\Users\MJ Soluções\Desktop\Faculdade\2026\Programacao_1\Atividades\Bibliotecas\SaleOrder\obj\Debug\net10.0\SaleOrder.sourcelink.json
+C:\Users\MJ Soluções\Desktop\Faculdade\2026\Programacao_1\Atividades\Bibliotecas\SaleOrder\obj\Debug\net10.0\SaleOrder.dll
+C:\Users\MJ Soluções\Desktop\Faculdade\2026\Programacao_1\Atividades\Bibliotecas\SaleOrder\obj\Debug\net10.0\refint\SaleOrder.dll
+C:\Users\MJ Soluções\Desktop\Faculdade\2026\Programacao_1\Atividades\Bibliotecas\SaleOrder\obj\Debug\net10.0\SaleOrder.pdb
+C:\Users\MJ Soluções\Desktop\Faculdade\2026\Programacao_1\Atividades\Bibliotecas\SaleOrder\obj\Debug\net10.0\ref\SaleOrder.dll

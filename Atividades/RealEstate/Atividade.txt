@@ -1,0 +1,7 @@
+Uma imobiliária precisa organizar o seu catalogo de imóveis.
+
+Para isto, você deve organizar as entidades de forma que contemple os imóveis categorizando em Casas, Apartamentos, Venda ou Aluguel.
+
+Defina as classes de entidades separados em uma biblioteca de classes, depois, importe em seu projeto web.
+
+no controller principal, preencha um List<Imovel> com 5 imóveis de diferentes tipos e imprima-os na view.

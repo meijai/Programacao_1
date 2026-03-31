@@ -1,12 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\MedVet\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D508DE9E-1C3D-4E76-9C2F-9CC10982A568}|..\\Bibliotecas\\SaleOrder\\SaleOrder.csproj|c:\\users\\mj solu\u00E7\u00F5es\\desktop\\faculdade\\2026\\programacao_1\\atividades\\bibliotecas\\saleorder\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\Bibliotecas\\SaleOrder\\Customer.cs",
+              "RelativeDocumentMoniker": "..\\Bibliotecas\\SaleOrder\\Customer.cs",
+              "ToolTip": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\Bibliotecas\\SaleOrder\\Customer.cs",
+              "RelativeToolTip": "..\\Bibliotecas\\SaleOrder\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T19:01:18.168Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

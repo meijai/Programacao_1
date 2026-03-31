@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "SaleOrder/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/SaleOrder.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SaleOrder.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SaleOrder/1.0.0": {
+      "type": "project",
+      "path": "../../Bibliotecas/SaleOrder/SaleOrder.csproj",
+      "msbuildProject": "../../Bibliotecas/SaleOrder/SaleOrder.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "SaleOrder >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\MJ Soluções\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\MJ Soluções\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\Bibliotecas\\SaleOrder\\SaleOrder.csproj": {
+              "projectPath": "C:\\Users\\MJ Soluções\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\Bibliotecas\\SaleOrder\\SaleOrder.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -75,7 +98,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
