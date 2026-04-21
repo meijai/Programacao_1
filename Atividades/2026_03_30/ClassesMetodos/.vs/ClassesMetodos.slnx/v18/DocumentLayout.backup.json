@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\2026_03_30\\ClassesMetodos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5733CC6B-E019-4F67-8C22-2153E8E6CD82}|Model\\Model.csproj|c:\\users\\mj solu\u00E7\u00F5es\\desktop\\faculdade\\2026\\programacao_1\\atividades\\2026_03_30\\classesmetodos\\model\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5733CC6B-E019-4F67-8C22-2153E8E6CD82}|Model\\Model.csproj|solutionrelative:model\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{108C8B2B-162B-4198-BAB2-028788AEFE55}|Repository\\Repository.csproj|c:\\users\\mj solu\u00E7\u00F5es\\desktop\\faculdade\\2026\\programacao_1\\atividades\\2026_03_30\\classesmetodos\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{108C8B2B-162B-4198-BAB2-028788AEFE55}|Repository\\Repository.csproj|solutionrelative:repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5733CC6B-E019-4F67-8C22-2153E8E6CD82}|Model\\Model.csproj|c:\\users\\mj solu\u00E7\u00F5es\\desktop\\faculdade\\2026\\programacao_1\\atividades\\2026_03_30\\classesmetodos\\model\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5733CC6B-E019-4F67-8C22-2153E8E6CD82}|Model\\Model.csproj|solutionrelative:model\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4923625-668A-95CB-F92E-EAD08FFFA065}|Model\\Model.csproj|c:\\users\\mj solu\u00E7\u00F5es\\desktop\\faculdade\\2026\\programacao_1\\atividades\\2026_03_30\\classesmetodos\\model\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4923625-668A-95CB-F92E-EAD08FFFA065}|Model\\Model.csproj|solutionrelative:model\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5733CC6B-E019-4F67-8C22-2153E8E6CD82}|Model\\Model.csproj|c:\\users\\mj solu\u00E7\u00F5es\\desktop\\faculdade\\2026\\programacao_1\\atividades\\2026_03_30\\classesmetodos\\model\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5733CC6B-E019-4F67-8C22-2153E8E6CD82}|Model\\Model.csproj|solutionrelative:model\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5733CC6B-E019-4F67-8C22-2153E8E6CD82}|Model\\Model.csproj|c:\\users\\mj solu\u00E7\u00F5es\\desktop\\faculdade\\2026\\programacao_1\\atividades\\2026_03_30\\classesmetodos\\model\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5733CC6B-E019-4F67-8C22-2153E8E6CD82}|Model\\Model.csproj|solutionrelative:model\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5733CC6B-E019-4F67-8C22-2153E8E6CD82}|Model\\Model.csproj|c:\\users\\mj solu\u00E7\u00F5es\\desktop\\faculdade\\2026\\programacao_1\\atividades\\2026_03_30\\classesmetodos\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5733CC6B-E019-4F67-8C22-2153E8E6CD82}|Model\\Model.csproj|solutionrelative:model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{108C8B2B-162B-4198-BAB2-028788AEFE55}|Repository\\Repository.csproj|c:\\users\\mj solu\u00E7\u00F5es\\desktop\\faculdade\\2026\\programacao_1\\atividades\\2026_03_30\\classesmetodos\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{108C8B2B-162B-4198-BAB2-028788AEFE55}|Repository\\Repository.csproj|solutionrelative:repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\2026_03_30\\ClassesMetodos\\Model\\Product.cs",
-              "RelativeDocumentMoniker": "Model\\Product.cs",
-              "ToolTip": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\2026_03_30\\ClassesMetodos\\Model\\Product.cs",
-              "RelativeToolTip": "Model\\Product.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAkwBwAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T22:59:58.989Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\2026_03_30\\ClassesMetodos\\Model\\Order.cs",
               "RelativeDocumentMoniker": "Model\\Order.cs",
               "ToolTip": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\2026_03_30\\ClassesMetodos\\Model\\Order.cs",
               "RelativeToolTip": "Model\\Order.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAwwCEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T23:24:50.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderItem.cs",
-              "DocumentMoniker": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\2026_03_30\\ClassesMetodos\\Model\\OrderItem.cs",
-              "RelativeDocumentMoniker": "Model\\OrderItem.cs",
-              "ToolTip": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\2026_03_30\\ClassesMetodos\\Model\\OrderItem.cs",
-              "RelativeToolTip": "Model\\OrderItem.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAwwCIAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T23:03:37.561Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Address.cs",
-              "DocumentMoniker": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\2026_03_30\\ClassesMetodos\\Model\\Address.cs",
-              "RelativeDocumentMoniker": "Model\\Address.cs",
-              "ToolTip": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\2026_03_30\\ClassesMetodos\\Model\\Address.cs",
-              "RelativeToolTip": "Model\\Address.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAIwC0AAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T22:53:16.98Z",
+              "WhenOpened": "2026-04-21T01:04:29.013Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\2026_03_30\\ClassesMetodos\\Model\\Customer.cs",
-              "RelativeDocumentMoniker": "Model\\Customer.cs",
-              "ToolTip": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\2026_03_30\\ClassesMetodos\\Model\\Customer.cs",
-              "RelativeToolTip": "Model\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAYAAAAAAAAAA==",
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\2026_03_30\\ClassesMetodos\\Repository\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\2026_03_30\\ClassesMetodos\\Repository\\OrderRepository.cs",
+              "RelativeToolTip": "Repository\\OrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T22:49:52.568Z",
+              "WhenOpened": "2026-04-21T00:58:25.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\2026_03_30\\ClassesMetodos\\Repository\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\2026_03_30\\ClassesMetodos\\Repository\\CustomerRepository.cs",
+              "RelativeToolTip": "Repository\\CustomerRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T23:33:57.768Z",
               "EditorCaption": ""
             }
           ]

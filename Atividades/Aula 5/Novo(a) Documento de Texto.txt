@@ -1,0 +1,7 @@
+Laços de repetição são controladas por 3 tipos de variável
+1 - Contador
+2 - Acumulador
+3 - Flag
+
+Estouro da pilha de memoria (stack overflow)
+
