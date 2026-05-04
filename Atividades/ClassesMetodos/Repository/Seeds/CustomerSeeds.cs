@@ -27,9 +27,9 @@ namespace Repository.Seeds
                 c1Address.Country = "Brazil";
                 c1Address.City = "Florianópolis";
                 c1Address.PostalCode = "88000-000";
+                c1Address.AddressType = AddressType.Residential;
 
-                c1.HomeAddress = c1Address;
-                c1.ShippingAddress = c1Address;
+                c1.Addresses.Add(c1Address);
 
                 MyData.Customers.Add(c1);
             }

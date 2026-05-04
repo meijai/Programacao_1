@@ -10,6 +10,7 @@
         public string PostalCode { get; set; } = string.Empty;
         public string Country { get; set; } = string.Empty;
         public string FederalState { get; set; } = string.Empty;
+        public AddressType AddressType { get; set; }
         #endregion
 
         #region Constructors
@@ -24,7 +25,8 @@
             string city, 
             string postalCode, 
             string country, 
-            string federalState
+            string federalState,
+            AddressType addressType
         )
         {
             Id = id;
@@ -34,6 +36,7 @@
             PostalCode = postalCode;
             Country = country;
             FederalState = federalState;
+            AddressType = addressType;
         }
 
         public bool Validate()
@@ -49,5 +52,12 @@
         }
         
         #endregion
+    }
+
+    public enum AddressType
+    { 
+        Residential,
+        Comercial,
+        Other
     }
 }

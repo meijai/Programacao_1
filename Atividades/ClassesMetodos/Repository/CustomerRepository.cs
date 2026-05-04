@@ -22,8 +22,6 @@ namespace Repository
             _customer.LastName = customer.LastName;
             _customer.Email = customer.Email;
             _customer.Phone = customer.Phone;
-            _customer.HomeAddress = customer.HomeAddress;
-            _customer.ShippingAddress = customer.ShippingAddress;
         }
 
         public Customer GetById(int id)
