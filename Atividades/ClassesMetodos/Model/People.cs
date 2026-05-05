@@ -8,6 +8,11 @@ namespace Model
     {
         public string FirstName { get; set; } = string.Empty;
         public string LastName { get; set; } = string.Empty;
-        public List<Address> Addresses { get; set; } = [];
+        public List<Address> Addresses { get; set; } = new();
+
+        public People()
+        {
+            Addresses.Add(new Address());
+        }
     }
 }

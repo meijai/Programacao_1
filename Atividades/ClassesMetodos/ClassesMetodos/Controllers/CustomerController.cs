@@ -13,17 +13,30 @@ namespace ClassesMetodos.Controllers
             _customerRepository = new CustomerRepository();
         }
 
+        [HttpGet]
         public IActionResult Index()
         {
 
-            Object objeto = new Object();
-            var customer = _customerRepository.GetById(1);
-            var customers = _customerRepository.GetByName("Zé");
-
-            customers.Add(customer);
-            //customers.Add((Customer)objeto);
+            var customers = _customerRepository.GetAll();
 
             return View(customers);
+        }
+
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View(new Customer());
+        }
+
+        [HttpPost]
+        public IActionResult Create(Customer customer)
+        {
+            if (customer is null)
+                return View(customer);
+
+            _customerRepository.Create(customer);
+
+            return RedirectToAction(nameof(Index));
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Model;
+using Repository.Seeds;
 using Repository.VirtualDatabase;
 namespace Repository
 {
@@ -46,6 +47,11 @@ namespace Repository
             }
 
             return customers;
+        }
+
+        public List<Customer> GetAll()
+        {
+            return MyData.Customers;
         }
     }
 }

@@ -1,4 +1,10 @@
 ﻿@model List<Model.Customer>
+
+@{
+    ViewData["Title"] = "Customer List";
+}
+ <a asp-controller="Customer" asp-action="Create"> Novo Customer </a>
+
 <table>
     <thead>
         <tr>
