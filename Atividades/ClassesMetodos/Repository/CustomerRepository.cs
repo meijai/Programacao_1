@@ -7,7 +7,8 @@ namespace Repository
     {
 
         public void Create(Customer customer)
-        { 
+        {
+            customer.Id = GetNextId();
             MyData.Customers.Add(customer);
         }
 
@@ -52,6 +53,20 @@ namespace Repository
         public List<Customer> GetAll()
         {
             return MyData.Customers;
+        }
+
+        private int GetNextId()
+        {
+            //return MyData.Customers.Max(x => x.Id);
+
+            int maxId = 0;
+            foreach (var customer in MyData.Customers)
+            {
+                if (customer.Id > maxId)
+                    maxId = customer.Id;
+            }
+
+            return ++maxId;
         }
     }
 }

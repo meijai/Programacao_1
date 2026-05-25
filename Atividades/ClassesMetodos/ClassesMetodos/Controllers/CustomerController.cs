@@ -38,5 +38,34 @@ namespace ClassesMetodos.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+
+        [HttpGet]
+
+        public IActionResult Delete(int id)
+        {
+            if (id <= 0)
+                return BadRequest();
+
+            var customer = _customerRepository.GetById(id);
+            if (customer is null)
+                return NotFound();
+
+            return View(customer);
+        }
+
+        [HttpPost]
+        public IActionResult ConfirmDelete(int id)
+        { 
+            if (id <= 0)
+                return BadRequest();
+
+            var customer = _customerRepository.GetById(id);
+            if (customer is null)
+                return NotFound();
+
+            _customerRepository.Delete(customer);
+
+            return RedirectToAction(nameof(Index));
+        }
     }
 }

@@ -11,6 +11,7 @@ namespace Repository
 
         public void Create(Product product)
         {
+            product.Id = GetNextId();
             MyData.Products.Add(product);
         }
 
@@ -35,6 +36,11 @@ namespace Repository
             return product;
         }
 
+        public List<Product> GetAll()
+        {
+            return MyData.Products;
+        }
+
         public List<Product> GetByName(string name)
         {
             List<Product> products = [];
@@ -48,6 +54,18 @@ namespace Repository
             }
 
             return products;
+        }
+
+        private int GetNextId()
+        {
+            int maxId = 0;
+            foreach (var product in MyData.Products)
+            { 
+                if (product.Id > maxId)
+                    maxId = product.Id;
+            }
+
+            return ++maxId;
         }
     }
 }
