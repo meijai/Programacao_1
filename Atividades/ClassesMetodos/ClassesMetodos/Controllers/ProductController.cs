@@ -15,9 +15,18 @@ namespace ClassesMetodos.Controllers
             _productRepository = new ProductRepository();
         }
 
-        public IActionResult Index()
+        public IActionResult Index(string search)
         {
-            var products = _productRepository.GetAll();
+            List<Product> products = [];
+
+            if (!string.IsNullOrEmpty(search))
+            {
+                products = _productRepository.GetByName(search);
+            }
+            else
+            { 
+                products = _productRepository.GetAll();
+            }
 
             return View(products);
         }
@@ -31,8 +40,9 @@ namespace ClassesMetodos.Controllers
         [HttpPost]
         public IActionResult Create(Product product)
         {
-            if (product is null)
-                return View(product);
+            if (product is null) return View(product);
+
+            foreach (var a in product.Products) _productRepository.Create(a);
 
             _productRepository.Create(product);
 
@@ -63,6 +73,35 @@ namespace ClassesMetodos.Controllers
                 return NotFound();
 
             _productRepository.Delete(product);
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        public IActionResult Update(int id)
+        { 
+            if (id <= 0)
+                return BadRequest();
+
+            var product = _productRepository.GetById(id);
+
+            if (product is null)
+                return NotFound();
+
+            if (id != product.Id)
+                return BadRequest();
+
+            return View(product);
+        }
+
+        public IActionResult Update(int id, Product product)
+        { 
+            if (id <= 0)
+                return BadRequest();
+
+            if (product is null)
+                return NotFound();
+
+            _productRepository.Update(product);
 
             return RedirectToAction(nameof(Index));
         }

@@ -3,7 +3,7 @@ using Repository.Seeds;
 using Repository.VirtualDatabase;
 namespace Repository
 {
-    public class CustomerRepository
+    public class CustomerRepository : BaseRepository<Customer>
     {
 
         public void Create(Customer customer)
@@ -24,6 +24,7 @@ namespace Repository
             _customer.LastName = customer.LastName;
             _customer.Email = customer.Email;
             _customer.Phone = customer.Phone;
+            _customer.Addresses = customer.Addresses;
         }
 
         public Customer GetById(int id)
@@ -53,20 +54,6 @@ namespace Repository
         public List<Customer> GetAll()
         {
             return MyData.Customers;
-        }
-
-        private int GetNextId()
-        {
-            //return MyData.Customers.Max(x => x.Id);
-
-            int maxId = 0;
-            foreach (var customer in MyData.Customers)
-            {
-                if (customer.Id > maxId)
-                    maxId = customer.Id;
-            }
-
-            return ++maxId;
         }
     }
 }

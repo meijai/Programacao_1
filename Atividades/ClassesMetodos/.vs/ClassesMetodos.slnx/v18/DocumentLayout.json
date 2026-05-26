@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\ClassesMetodos\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB201F95-C841-567E-8015-3DB37365BA30}|ClassesMetodos\\ClassesMetodos.csproj|c:\\users\\mj solu\u00E7\u00F5es\\desktop\\faculdade\\2026\\programacao_1\\atividades\\classesmetodos\\classesmetodos\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB201F95-C841-567E-8015-3DB37365BA30}|ClassesMetodos\\ClassesMetodos.csproj|solutionrelative:classesmetodos\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB201F95-C841-567E-8015-3DB37365BA30}|ClassesMetodos\\ClassesMetodos.csproj|c:\\users\\mj solu\u00E7\u00F5es\\desktop\\faculdade\\2026\\programacao_1\\atividades\\classesmetodos\\classesmetodos\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB201F95-C841-567E-8015-3DB37365BA30}|ClassesMetodos\\ClassesMetodos.csproj|solutionrelative:classesmetodos\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB201F95-C841-567E-8015-3DB37365BA30}|ClassesMetodos\\ClassesMetodos.csproj|c:\\users\\mj solu\u00E7\u00F5es\\desktop\\faculdade\\2026\\programacao_1\\atividades\\classesmetodos\\classesmetodos\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB201F95-C841-567E-8015-3DB37365BA30}|ClassesMetodos\\ClassesMetodos.csproj|solutionrelative:classesmetodos\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\ClassesMetodos\\ClassesMetodos\\Views\\Product\\Update.cshtml",
+              "RelativeDocumentMoniker": "ClassesMetodos\\Views\\Product\\Update.cshtml",
+              "ToolTip": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\ClassesMetodos\\ClassesMetodos\\Views\\Product\\Update.cshtml",
+              "RelativeToolTip": "ClassesMetodos\\Views\\Product\\Update.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-26T01:13:52.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\ClassesMetodos\\ClassesMetodos\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ClassesMetodos\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\ClassesMetodos\\ClassesMetodos\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ClassesMetodos\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T00:57:12.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\ClassesMetodos\\ClassesMetodos\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "ClassesMetodos\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\ClassesMetodos\\ClassesMetodos\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "ClassesMetodos\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-26T01:12:27.534Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

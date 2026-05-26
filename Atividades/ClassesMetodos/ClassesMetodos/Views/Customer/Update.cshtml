@@ -1,0 +1,85 @@
+﻿@model Model.Customer
+
+@{
+    ViewData["Title"] = "Update Customer";
+}
+
+<h2>Update Customer</h2>
+
+<form asp-action="Update" asp-route-id="@Model.Id" method="post">
+
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="FirstName"></label>
+        <input asp-for="FirstName" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="LastName"></label>
+        <input asp-for="LastName" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Phone"></label>
+        <input asp-for="Phone" class="form-control" />
+    </div>
+
+    <hr />
+    <h4>Address</h4>
+    @for (int i = 0; i < 1; i++)
+    {
+        <div class="border p-3 mb-2">
+
+            <input type="hidden" asp-for="Addresses[i].Id" />
+
+            <div class="form-group">
+                <label asp-for="Addresses[i].Street"></label>
+                <input asp-for="Addresses[i].Street" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Addresses[i].Number"></label>
+                <input asp-for="Addresses[i].Number" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Addresses[i].City"></label>
+                <input asp-for="Addresses[i].City" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Addresses[i].PostalCode"></label>
+                <input asp-for="Addresses[i].PostalCode" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Addresses[i].Country"></label>
+                <input asp-for="Addresses[i].Country" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Addresses[i].FederalState"></label>
+                <input asp-for="Addresses[i].FederalState" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Addresses[i].AddressType"></label>
+                <select asp-for="Addresses[i].AddressType"
+                        asp-items="Html.GetEnumSelectList<Model.AddressType>()"
+                        class="form-control">
+                </select>
+            </div>
+
+        </div>
+    }
+    <button type="submit" class="btn btn-primary">Update</button>
+    <a asp-controller="Customer" asp-action="Index" class="btn btn-danger">
+        Voltar
+    </a>
+</form>
