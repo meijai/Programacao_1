@@ -77,6 +77,7 @@ namespace ClassesMetodos.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        [HttpGet]
         public IActionResult Update(int id)
         { 
             if (id <= 0)
@@ -93,6 +94,7 @@ namespace ClassesMetodos.Controllers
             return View(product);
         }
 
+        [HttpPost]
         public IActionResult Update(int id, Product product)
         { 
             if (id <= 0)
