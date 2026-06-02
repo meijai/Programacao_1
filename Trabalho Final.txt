@@ -1,0 +1,17 @@
+Uma empresa do ramo imobiliário entrou em contato com você (eu) para desenvolver uma aplicação WEB que possibilite catalogar os seus imóveis, para isto os itens devem estar organizados nas seguintes categorias:
+- Comercial
+- Residencial
+- Rural
+É necessário também determinar se um item esta com o negocio de compra de venda ou aluguel
+
+para cada item é requerido os seguintes atributos
+- Titulo
+- Descricao
+- Categoria
+- Tipo de negocio
+- Valor
+- Localização / endereço
+- Numero de cômodos (especificação(quartos, cozinha etc))
+- Sera considerado PLUS se:
+A) implementação de busca
+B) Se conseguir armazenar imagem

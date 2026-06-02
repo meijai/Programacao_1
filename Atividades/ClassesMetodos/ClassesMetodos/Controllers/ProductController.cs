@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Repository;
 using Model;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 
 namespace ClassesMetodos.Controllers
@@ -9,31 +10,25 @@ namespace ClassesMetodos.Controllers
     {
 
         private ProductRepository _productRepository;
+        private CategoryRepository _categoryRepository;
 
         public ProductController()
         { 
             _productRepository = new ProductRepository();
+            _categoryRepository = new CategoryRepository();
         }
 
+        [HttpGet]
         public IActionResult Index(string search)
         {
-            List<Product> products = [];
-
-            if (!string.IsNullOrEmpty(search))
-            {
-                products = _productRepository.GetByName(search);
-            }
-            else
-            { 
-                products = _productRepository.GetAll();
-            }
-
+            var products = string.IsNullOrEmpty(search) ? _productRepository.GetAll() : _productRepository.GetByName(search);
             return View(products);
         }
 
         [HttpGet]
         public IActionResult Create()
         {
+            LoadViewData();
             return View(new Product());
         }
 
@@ -46,7 +41,14 @@ namespace ClassesMetodos.Controllers
 
             _productRepository.Create(product);
 
+            LoadViewData();
             return RedirectToAction(nameof(Index));
+        }
+
+        private void LoadViewData()
+        {
+            var categories = _categoryRepository.GetAll();
+            ViewData["CategoryId"] = new SelectList(categories, "Id", "Name");
         }
 
         [HttpGet]
@@ -90,7 +92,7 @@ namespace ClassesMetodos.Controllers
 
             if (id != product.Id)
                 return BadRequest();
-
+            LoadViewData();
             return View(product);
         }
 
@@ -104,7 +106,7 @@ namespace ClassesMetodos.Controllers
                 return NotFound();
 
             _productRepository.Update(product);
-
+            LoadViewData();
             return RedirectToAction(nameof(Index));
         }
     }

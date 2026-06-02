@@ -29,6 +29,7 @@ app.MapControllerRoute(
 
 CustomerSeeds.Seed();
 ProductSeeds.Seed();
+CategorySeeds.Seed();
 
 
 app.Run();

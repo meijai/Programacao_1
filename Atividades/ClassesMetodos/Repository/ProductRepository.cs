@@ -6,7 +6,7 @@ using Repository.VirtualDatabase;
 
 namespace Repository
 {
-    public class ProductRepository
+    public class ProductRepository : BaseRepository<Product>
     {
 
         public void Create(Product product)
@@ -25,6 +25,7 @@ namespace Repository
             var _product = GetById(product.Id);
             _product.Name = product.Name;
             _product.Price = product.Price;
+            _product.CategoryId = product.CategoryId;
         }
 
         public Product GetById(int id)
@@ -35,12 +36,10 @@ namespace Repository
 
             return product;
         }
-
         public List<Product> GetAll()
         {
             return MyData.Products;
         }
-
         public List<Product> GetByName(string name)
         {
             List<Product> products = [];
@@ -55,17 +54,19 @@ namespace Repository
 
             return products;
         }
-
-        private int GetNextId()
+        public List<Product> GetByCategoryId(int categoryId)
         {
-            int maxId = 0;
-            foreach (var product in MyData.Products)
-            { 
-                if (product.Id > maxId)
-                    maxId = product.Id;
+            List<Product> products = [];
+
+            foreach (var p in MyData.Products)
+            {
+                if (p.CategoryId == categoryId)
+                {
+                    products.Add(p);
+                }
             }
 
-            return ++maxId;
+            return products;
         }
     }
 }
