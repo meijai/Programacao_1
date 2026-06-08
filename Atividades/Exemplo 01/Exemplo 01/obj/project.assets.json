@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net10.0": {}
   },
@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MJ Soluções\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\Nova pasta\\Exemplo 01\\Exemplo 01\\Exemplo 01.csproj",
+      "projectUniqueName": "C:\\Users\\MJ Soluções\\Desktop\\Faculdade\\Programacao_1\\Atividades\\Exemplo 01\\Exemplo 01\\Exemplo 01.csproj",
       "projectName": "Exemplo 01",
-      "projectPath": "C:\\Users\\MJ Soluções\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\Nova pasta\\Exemplo 01\\Exemplo 01\\Exemplo 01.csproj",
+      "projectPath": "C:\\Users\\MJ Soluções\\Desktop\\Faculdade\\Programacao_1\\Atividades\\Exemplo 01\\Exemplo 01\\Exemplo 01.csproj",
       "packagesPath": "C:\\Users\\MJ Soluções\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MJ Soluções\\Desktop\\Faculdade\\2026\\Programacao_1\\Atividades\\Nova pasta\\Exemplo 01\\Exemplo 01\\obj\\",
+      "outputPath": "C:\\Users\\MJ Soluções\\Desktop\\Faculdade\\Programacao_1\\Atividades\\Exemplo 01\\Exemplo 01\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,7 +52,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.200"
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
       "net10.0": {
@@ -77,7 +77,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

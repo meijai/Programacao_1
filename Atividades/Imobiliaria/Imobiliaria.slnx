@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/Infraestructure/">
+    <Project Path="Model/Model.csproj" />
+    <Project Path="Repository/Repository.csproj" Id="1f3dbc11-b522-4be3-a968-eaef5c64c1d4" />
+  </Folder>
+  <Project Path="Imobiliaria/Imobiliaria.csproj" />
+</Solution>
