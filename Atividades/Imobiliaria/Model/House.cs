@@ -23,6 +23,10 @@
             Address = address;
         }
 
+        public House()
+        {
+        }
+
         public bool Validate()
         {
             if (string.IsNullOrEmpty(Tittle)) return false;

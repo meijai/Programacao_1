@@ -1,11 +1,49 @@
 {
   "version": 4,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repository.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Model/1.0.0": {
+      "type": "project",
+      "path": "../Model/Model.csproj",
+      "msbuildProject": "../Model/Model.csproj"
+    },
+    "Repository/1.0.0": {
+      "type": "project",
+      "path": "../Repository/Repository.csproj",
+      "msbuildProject": "../Repository/Repository.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "Model >= 1.0.0",
+      "Repository >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\MJ Soluções\\.nuget\\packages\\": {},
@@ -39,7 +77,14 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\MJ Soluções\\Desktop\\Faculdade\\Programacao_1\\Atividades\\Imobiliaria\\Model\\Model.csproj": {
+              "projectPath": "C:\\Users\\MJ Soluções\\Desktop\\Faculdade\\Programacao_1\\Atividades\\Imobiliaria\\Model\\Model.csproj"
+            },
+            "C:\\Users\\MJ Soluções\\Desktop\\Faculdade\\Programacao_1\\Atividades\\Imobiliaria\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Users\\MJ Soluções\\Desktop\\Faculdade\\Programacao_1\\Atividades\\Imobiliaria\\Repository\\Repository.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

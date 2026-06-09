@@ -2,6 +2,7 @@
 using Repository;
 using Model;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using System.Text;
 
 
 namespace ClassesMetodos.Controllers
@@ -108,6 +109,26 @@ namespace ClassesMetodos.Controllers
             _productRepository.Update(product);
             LoadViewData();
             return RedirectToAction(nameof(Index));
+        }
+
+        [HttpGet]
+        public IActionResult ExportTxt()
+        { 
+            var products = _productRepository.GetAll();
+            var categories = _categoryRepository.GetAll();
+
+            var sb = new StringBuilder();
+
+            sb.AppendLine("Id;Name;Price;CategoryId;CategoryName");
+
+            string Escape(string s) => s?.Replace("\"", "\"\"") ?? string.Empty;
+
+            foreach (var p in products)
+            {
+                var categoryName = categories.FirstOrDefault(c => c.Id == p.CategoryId)?.Name ?? string.Empty;
+
+                var nameFild = $"\"{Escape(p.Name)}\"";
+            }
         }
     }
 }

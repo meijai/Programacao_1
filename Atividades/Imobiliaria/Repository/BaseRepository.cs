@@ -14,6 +14,7 @@ namespace Repository
             {
                 case Type t when t == typeof(Address): return GetNextAddressId();
                 case Type t when t == typeof(Apartment): return GetNextApartmentId();
+                case Type t when t == typeof(House): return GetNextHouseId();
                 default: throw new ArgumentException("Invalid Type");
             }
         }
@@ -36,6 +37,17 @@ namespace Repository
             {
                 if (apartment.Id > maxId)
                     maxId = apartment.Id;
+            }
+            return ++maxId;
+        }
+
+        private int GetNextHouseId()
+        {
+            int maxId = 0;
+            foreach(var house in MyData.Houses)
+            {
+                if (house.Id > maxId)
+                    maxId = house.Id;
             }
             return ++maxId;
         }
