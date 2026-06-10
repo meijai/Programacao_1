@@ -7,10 +7,10 @@ Uma empresa do ramo imobiliário entrou em contato com você (eu) para desenvolv
 para cada item é requerido os seguintes atributos
 - Titulo
 - Descricao
-- Categoria
-- Tipo de negocio
+- Categoria * 
+- Tipo de negocio *
 - Valor
-- Localização / endereço
+- Localização / endereço *
 - Numero de cômodos (especificação(quartos, cozinha etc))
 - Sera considerado PLUS se:
 A) implementação de busca

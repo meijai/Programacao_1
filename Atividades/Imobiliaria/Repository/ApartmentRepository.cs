@@ -74,5 +74,10 @@ namespace Repository
             }
             return apartments;
         }
+
+        public List<Apartment> GetAll()
+        {
+            return MyData.Apartments;
+        }
     }
 }

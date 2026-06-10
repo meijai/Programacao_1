@@ -9,9 +9,14 @@
         public Floor ApartmentFloor { get; set; } = Floor.Unlisted;
         public string Category { get; set; } = string.Empty;
         public double Price { get; set; }
+        public List<Apartment> Apartments { get; set; } = new();
         public List<Room> Room { get; set; } = new List<Room>();
         public BusinessType BusinessType { get; set; } = new BusinessType();
         public Address Address { get; set; } = new Address();
+
+        public Apartment()
+        {
+        }
 
         public Apartment(
             int id,
