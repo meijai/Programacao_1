@@ -1,17 +1,16 @@
 ﻿namespace Model
 {
-    public class Apartment
+    public class Apartment : Item
     {
         public int Id { get; set; }
         public string Tittle { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
         public int ApartmentNumber { get; set; }
-        public Floor ApartmentFloor { get; set; } = Floor.Unlisted;
-        public string Category { get; set; } = string.Empty;
+        public ApartmentFloor ApartmentFloor { get; set; }
         public double Price { get; set; }
         public List<Apartment> Apartments { get; set; } = new();
         public List<Room> Room { get; set; } = new List<Room>();
-        public BusinessType BusinessType { get; set; } = new BusinessType();
+        public BusinessType BusinessType { get; set; }
         public Address Address { get; set; } = new Address();
 
         public Apartment()
@@ -23,8 +22,7 @@
             string tittle,
             string description,
             int apartmentNumber,
-            Floor apartmentFloor,
-            string category,
+            ApartmentFloor apartmentFloor,
             double price,
             List<Room> room, 
             BusinessType businessType,
@@ -36,7 +34,6 @@
             Description = description;
             ApartmentNumber = apartmentNumber;
             ApartmentFloor = apartmentFloor;
-            Category = category;
             Price = price;
             Room = room;
             BusinessType = businessType;
@@ -48,16 +45,15 @@
             if (string.IsNullOrEmpty(Tittle)) return false;
             if (string.IsNullOrEmpty(Description)) return false;
             if (ApartmentNumber <= 0) return false;
-            if (ApartmentFloor == Floor.Unlisted) return false;
-            if (string.IsNullOrEmpty(Category)) return false;
+            if (ApartmentFloor == ApartmentFloor.Unlisted) return false;
             if (Price <= 0) return false;
             if (string.IsNullOrEmpty(Room?.ToString())) return false;
-            if (string.IsNullOrEmpty(BusinessType?.ToString())) return false;
+            if (string.IsNullOrEmpty(BusinessType.ToString())) return false;
             if (string.IsNullOrEmpty(Address?.ToString())) return false;
             return true;
         }
     }
-    public enum Floor
+    public enum ApartmentFloor
     {
         Ground,
         First,

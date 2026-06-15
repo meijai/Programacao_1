@@ -22,7 +22,6 @@ namespace Repository
             _apartment.Description = apartment.Description;
             _apartment.ApartmentNumber = apartment.ApartmentNumber;
             _apartment.ApartmentFloor = apartment.ApartmentFloor;
-            _apartment.Category = apartment.Category;
             _apartment.Price = apartment.Price;
             _apartment.Room = apartment.Room;
             _apartment.BusinessType = apartment.BusinessType;
@@ -74,7 +73,20 @@ namespace Repository
             }
             return apartments;
         }
+        public List<Apartment> GetByName(string name)
+        {
+            List<Apartment> apartments = [];
 
+            foreach (var c in MyData.Apartments)
+            {
+                if (c.Tittle.ToLower().Contains(name.ToLower()))
+                {
+                    apartments.Add(c);
+                }
+            }
+
+            return apartments;
+        }
         public List<Apartment> GetAll()
         {
             return MyData.Apartments;

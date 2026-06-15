@@ -4,51 +4,44 @@
 	ViewData["Title"] = "Apartment List";
 }
 
-<a asp-controller="Apartment" asp-action="Create">Novo Apartamento</a>
+<a asp-controller="Apartment" asp-action="Create">Novo Imóvel</a>
 
 <div>
-	<form method="get" asp-controller="Apartment" asp-action="Index">
-		<input type="text" name="search" placeholder="Pesquisar" />
+	<form method="get" asp-controller="Apartment"
+		  asp-action="Index">
+		<input type="text" name="search"
+			   placeholder="Pesquisar" />
 		<input type="submit" value="Buscar" />
 	</form>
 </div>
-
 <table class="table table-striped table-responsive">
 	<thead>
 		<tr>
 			<th>Id</th>
-			<th>Título</th>
-			<th>Número</th>
-			<th>Andar</th>
-			<th>Categoria</th>
+			<th>Título do Imóvel</th>
+			<th>Descrição</th>
 			<th>Preço</th>
-			<th>Cômodos</th>
-			<th>Tipo</th>
-			<th>Endereço</th>
+			<th>Tipo de Negócio</th>
 			<th>Ações</th>
 		</tr>
 	</thead>
 	<tbody>
-		@foreach (var apartment in Model)
+		@foreach (var Apartment in Model)
 		{
 			<tr>
-				<td>@apartment.Id</td>
-				<td>@apartment.Tittle</td>
-				<td>@apartment.ApartmentNumber do Apartamento</td>
-				<td>@apartment.ApartmentFloor</td>
-				<td>@apartment.Category</td>
-				<td>@apartment.Price</td>
-				<td>@apartment.Room</td>
-				<td>@apartment.BusinessType</td>
-				<td>@apartment.Address</td>
+				<td>@Apartment.Id</td>
+				<td>@Apartment.Tittle</td>
+                <td>@Apartment.Description</td>
+				<td>@Apartment.Price</td>
+				<td>@Apartment.BusinessType</td>
 
 				<td>
 					<a asp-controller="Apartment"
 					   asp-action="Update"
-					   asp-route-id="@apartment.Id">Edit</a> |
+					   asp-route-id="@Apartment.Id">Edit</a> |
 					<a asp-controller="Apartment"
 					   asp-action="Delete"
-					   asp-route-id="@apartment.Id">Delete</a>
+					   asp-route-id="@Apartment.Id">Delete</a>
 				</td>
 			</tr>
 		}

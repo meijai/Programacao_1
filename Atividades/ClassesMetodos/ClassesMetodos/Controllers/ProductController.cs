@@ -111,6 +111,7 @@ namespace ClassesMetodos.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        /*
         [HttpGet]
         public IActionResult ExportTxt()
         { 
@@ -129,6 +130,8 @@ namespace ClassesMetodos.Controllers
 
                 var nameFild = $"\"{Escape(p.Name)}\"";
             }
+       
         }
+       */
     }
 }

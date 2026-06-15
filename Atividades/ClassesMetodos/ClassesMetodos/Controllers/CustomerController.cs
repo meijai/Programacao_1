@@ -102,10 +102,9 @@ namespace ClassesMetodos.Controllers
                 return BadRequest();
 
             if (customer is null)
-                return BadRequest();
+                return NotFound();
 
             _customerRepository.Update(customer);
-
             return RedirectToAction(nameof(Index));
         }
     }

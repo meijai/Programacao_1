@@ -5,9 +5,15 @@
 
     public class Item
     {
-        public int Id { get; set; }
+        public int ItemId { get; set; }
         public Apartment? Apartment { get; set; }
         public House? House { get; set; }
+        public List<Address> Addresses { get; set; } = new();
+
+        public Item()
+        {
+            Addresses.Add(new Address());
+        }
 
     }
 }

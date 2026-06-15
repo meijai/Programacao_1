@@ -1,0 +1,96 @@
+﻿@model Model.Apartment
+
+@{
+    ViewData["Title"] = "Create Apartment";
+}
+
+<h2>Create Apartment</h2>
+
+<form asp-action="Create" method="post">
+
+    <div class="form-group">
+        <label asp-for="Tittle"></label>
+        <input asp-for="Tittle" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <input asp-for="Description" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ApartmentNumber"></label>
+        <input asp-for="ApartmentNumber" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ApartmentFloor"></label>
+        <select asp-for="ApartmentFloor"
+                asp-items="Html.GetEnumSelectList<Model.ApartmentFloor>()"
+                class="form-control">
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Price"></label>
+        <input asp-for="Price" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="BusinessType"></label>
+        <select asp-for="BusinessType"
+                asp-items="Html.GetEnumSelectList<Model.BusinessType>()"
+                class="form-control">
+        </select>
+    </div>
+    <hr />
+
+    <h4>Address</h4>
+    @for (int i = 0; i < 1; i++)
+    {
+        <div class="border p-3 mb-2">
+
+            <input type="hidden" asp-for="Addresses[i].Id" />
+
+            <div class="form-group">
+                <label asp-for="Addresses[i].Street"></label>
+                <input asp-for="Addresses[i].Street" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Addresses[i].Number"></label>
+                <input asp-for="Addresses[i].Number" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Addresses[i].City"></label>
+                <input asp-for="Addresses[i].City" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Addresses[i].PostalCode"></label>
+                <input asp-for="Addresses[i].PostalCode" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Addresses[i].Country"></label>
+                <input asp-for="Addresses[i].Country" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Addresses[i].FederalState"></label>
+                <input asp-for="Addresses[i].FederalState" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Addresses[i].AddressType"></label>
+                <select asp-for="Addresses[i].AddressType"
+                        asp-items="Html.GetEnumSelectList<Model.AddressType>()"
+                        class="form-control">
+                </select>
+            </div>
+
+        </div>
+    }
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>

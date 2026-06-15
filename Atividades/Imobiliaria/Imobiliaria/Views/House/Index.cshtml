@@ -1,0 +1,47 @@
+﻿@model List<Model.House>
+
+@{
+	ViewData["Title"] = "House List";
+}
+
+<a asp-controller="House" asp-action="Create">Nova Casa</a>
+
+<div>
+	<form method="get" asp-controller="House" asp-action="Index">
+		<input type="text" name="search" placeholder="Pesquisar" />
+		<input type="submit" value="Buscar" />
+	</form>
+</div>
+
+<table class="table table-striped table-responsive">
+	<thead>
+		<tr>
+			<th>Id</th>
+			<th>Título do Imóvel</th>
+			<th>Descrição</th>
+			<th>Preço</th>
+			<th>Tipo de Negócio</th>
+			<th>Ações</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var house in Model)
+		{
+			<tr>
+				<td>@house.Id</td>
+				<td>@house.Tittle</td>
+				<td>@house.Description</td>
+				<td>@house.Price</td>
+				<td>@house.BusinessType</td>
+				<td>
+					<a asp-controller="House"
+					   asp-action="Update"
+					   asp-route-id="@house.Id">Edit</a> |
+					<a asp-controller="House"
+					   asp-action="Delete"
+					   asp-route-id="@house.Id">Delete</a>
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>

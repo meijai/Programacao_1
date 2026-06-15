@@ -1,71 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\Programacao_1\\Atividades\\ClassesMetodos\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{DB201F95-C841-567E-8015-3DB37365BA30}|ClassesMetodos\\ClassesMetodos.csproj|c:\\users\\mj solu\u00E7\u00F5es\\desktop\\faculdade\\programacao_1\\atividades\\classesmetodos\\classesmetodos\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DB201F95-C841-567E-8015-3DB37365BA30}|ClassesMetodos\\ClassesMetodos.csproj|solutionrelative:classesmetodos\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB201F95-C841-567E-8015-3DB37365BA30}|ClassesMetodos\\ClassesMetodos.csproj|c:\\users\\mj solu\u00E7\u00F5es\\desktop\\faculdade\\programacao_1\\atividades\\classesmetodos\\classesmetodos\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB201F95-C841-567E-8015-3DB37365BA30}|ClassesMetodos\\ClassesMetodos.csproj|solutionrelative:classesmetodos\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{108C8B2B-162B-4198-BAB2-028788AEFE55}|Repository\\Repository.csproj|c:\\users\\mj solu\u00E7\u00F5es\\desktop\\faculdade\\programacao_1\\atividades\\classesmetodos\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{108C8B2B-162B-4198-BAB2-028788AEFE55}|Repository\\Repository.csproj|solutionrelative:repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\Programacao_1\\Atividades\\ClassesMetodos\\ClassesMetodos\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "ClassesMetodos\\Views\\Product\\Index.cshtml",
-              "ToolTip": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\Programacao_1\\Atividades\\ClassesMetodos\\ClassesMetodos\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "ClassesMetodos\\Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-10T16:43:08.971Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\Programacao_1\\Atividades\\ClassesMetodos\\Repository\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\Programacao_1\\Atividades\\ClassesMetodos\\Repository\\ProductRepository.cs",
-              "RelativeToolTip": "Repository\\ProductRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-10T16:38:40.962Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\Programacao_1\\Atividades\\ClassesMetodos\\ClassesMetodos\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "ClassesMetodos\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\MJ Solu\u00E7\u00F5es\\Desktop\\Faculdade\\Programacao_1\\Atividades\\ClassesMetodos\\ClassesMetodos\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "ClassesMetodos\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-10T16:38:39.415Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

@@ -9,16 +9,20 @@ namespace Imobiliaria.Controllers
     public class ApartmentController : Controller
     {
         private ApartmentRepository _apartmentRepository;
+        private AddressRepository _addressRepository;
 
         public ApartmentController()
         { 
             _apartmentRepository = new ApartmentRepository();
+            _addressRepository = new AddressRepository();
         }
+
+        [HttpGet]
         public IActionResult Index(string search)
         {
             var apartments = string.IsNullOrEmpty(search)
                 ? _apartmentRepository.GetAll()
-                : _apartmentRepository.GetByCity(search);
+                : _apartmentRepository.GetByName(search);
 
             return View(apartments);
         }
@@ -34,13 +38,8 @@ namespace Imobiliaria.Controllers
         public IActionResult Create(Apartment apartment)
         {
             if (apartment is null) return View(apartment);
-
+            foreach (var a in apartment.Addresses) _addressRepository.Create(a);
             _apartmentRepository.Create(apartment);
-
-            foreach (var a in apartment.Apartments) _apartmentRepository.Create(a);
-
-            _apartmentRepository.Create(apartment);
-
             LoadViewData();
             return RedirectToAction(nameof(Index));
         }
